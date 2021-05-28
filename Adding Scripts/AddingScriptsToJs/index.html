@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <!-- Problem Name: AddingScriptsToJs
+    Make index.html, style.css and app.js files.
+    Now use all of the three ways to include JavaScript code using these files -->
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddingScriptsToJs</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="container">
+        
+           
+        <h1 id="heading1">Adding Scripts To Js</h1>
+
+        <!-- Adding JS using Inline method -->
+        <button class = "button" onclick="alert(`Hello, Here Inline JS method is used.`);">Click!</button>  
+        
+        
+        <!-- Adding JS using Internal method -->
+        <button class = "button" >Click!</button>
+        <script>
+            alert(`Hello, Here Internal JS method is used.`);   
+        </script>
+
+    </div>
+        <!-- Adding JS using External method -->    
+        <script src="app.js"></script>   
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+
+    background-color: rgb(154, 191, 206);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+    
+#heading1{
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+
+.button {
+    background-color: #9fa052;
+    border:none;
+    font-family: 'Itim', cursive;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration:none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
