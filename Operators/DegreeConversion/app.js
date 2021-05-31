@@ -1,6 +1,15 @@
 /*
 Problem Name: Write a program that converts degree to fahrenheit and fahrenheit to degrees.
 */
+
+if(document.getElementById('celcius').checked == true) {   
+    convertToFarenheit();   
+} 
+else {  
+    convertToCelcius();   
+}  
+
+
 function convertToFarenheit(){
 
     let tempCelcius, resultFarenheit;

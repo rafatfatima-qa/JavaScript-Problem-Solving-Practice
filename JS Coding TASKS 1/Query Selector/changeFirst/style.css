@@ -1,0 +1,24 @@
+body{
+
+    background-color: rgb(154, 191, 206);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+.button {
+    background-color: #9fa052;
+    border:none;
+    font-family: 'Itim', cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    text-decoration:none;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .button:hover {
+    background-color: #3c9fd8; /* Green */
+    color: white;
+  }
