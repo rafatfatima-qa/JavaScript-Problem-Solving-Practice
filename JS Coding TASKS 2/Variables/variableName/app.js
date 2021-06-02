@@ -7,7 +7,7 @@ function myFunction1() {
     let a = 2;
     let b = 4;
     let x = a * b;
-    console.log(myGlobalVariable);
+    console.log("myGlobalVariable is: ", myGlobalVariable);
     console.log("a is: ", a);
     
   }
@@ -20,4 +20,6 @@ function myFunction1() {
     console.log("x is: ", x);
     
   }
+  myFunction1();
+  myFunction2();
 
