@@ -58,7 +58,8 @@ let printAsTable = usersData.map(printArrayFunc2);
 console.log("Array in Table Form: ", printAsTable);
 
 function printArrayFunc2(x){
+ 
+return (x.name + " " + x.lastName + " " + x.school + " " + x.profession);
 
-   return (x.name + " " + x.lastName + " " + x.school + " " + x.profession);
-        
+
 }

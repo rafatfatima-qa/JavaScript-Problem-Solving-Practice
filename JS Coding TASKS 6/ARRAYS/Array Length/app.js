@@ -6,9 +6,7 @@ Print the length and size of the array
 
 let games = ['Cricket', 'Football', 'Hockey', 'Chess', 'Badminton'];
 
-        console.log("Length of games array: ", games.length);
-       
-
+console.log("Length of games array: ", games.length);
 
 /*
 
